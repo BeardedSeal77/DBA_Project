@@ -1,0 +1,16 @@
+DBA_Project/
+├─ public/
+│  ├─ Process/
+│  │  ├─ Install 1.png
+│  │  └─ Install 2.png
+│  ├─ ERD.drawio
+│  └─ Project [2025] DBA381.pdf
+├─ Scripts/
+│  ├─ Schema/
+│  │  └─ create_bookstore_schema.sql
+│  └─ Security/
+│     ├─ password_policies.sql
+│     ├─ roles.sql
+│     └─ users.sql
+├─ .gitattributes
+└─ README.md

@@ -1,0 +1,11 @@
+DBA Project/ (oracle connection)
+├─ security/
+│  ├─ Users/
+│  └─ Roles/
+├─ SYSTEM/
+│  ├─ Query/
+│  ├─ Tables/
+│  ├─ Views/
+│  ├─ Packages/
+│  ├─ Functions/
+│  └─ Procedures/
