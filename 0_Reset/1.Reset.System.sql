@@ -1,3 +1,13 @@
+-- Active: 1747205126731@@127.0.0.1@1521@XEPDB1@SYSTEM
+-- Connection Settings
+--  Group: DBA
+--  Name: DBA SYSTEM 
+--  Host: 127.0.0.1 
+--  Port: 1521 
+--  Username: system 
+--  Password: password 
+--  Database: XEPDB1
+
 -- ============================
 -- Terminate Active Sessions
 -- ============================
