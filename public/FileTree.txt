@@ -1,16 +1,32 @@
 DBA_Project/
+├─ 1_System_Setup/
+│  ├─ 1.Users_Roles.System.sql
+│  └─ 2.Passwords.System.sql
+├─ 2_Table_Creation/
+│  ├─ 1.Tables.User_Manager.sql
+│  └─ 2.Permissions.User_Manager.sql
+├─ 3_data_Load/
+│  ├─ data/
+│  │  └─ Books.csv
+│  ├─ bookdata.py
+│  ├─ load_data.ctl
+│  └─ load_data.sql
+├─ 4_queries/
+│  └─ Queries.User_Viewer.sql
+├─ 5_monitoring/
+│  └─ monitor_log.sql
+├─ 6_backup/
+│  └─ _.sql
 ├─ public/
+│  ├─ HowOracleWorks/
+│  │  ├─ DBTree.txt
+│  │  └─ Notes.txt
 │  ├─ Process/
 │  │  ├─ Install 1.png
 │  │  └─ Install 2.png
 │  ├─ ERD.drawio
+│  ├─ FileTree.txt
 │  └─ Project [2025] DBA381.pdf
-├─ Scripts/
-│  ├─ Schema/
-│  │  └─ create_bookstore_schema.sql
-│  └─ Security/
-│     ├─ password_policies.sql
-│     ├─ roles.sql
-│     └─ users.sql
 ├─ .gitattributes
-└─ README.md
+├─ README.md
+└─ requirements.txt
