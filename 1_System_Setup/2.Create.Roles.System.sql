@@ -21,11 +21,14 @@ SELECT USER FROM dual;
 ---------------------------------------------------------------------------------
 -- 2) Create Roles and Grant Permissions
 
+-- Role for admin-level access. (full DDL and DML)
+CREATE ROLE bookstore_manager;
+
 -- Role for general read-only users.
 CREATE ROLE bookstore_read_only;
 
 -- Role for data entry users (no DDL).
 CREATE ROLE bookstore_data_entry;
 
--- Role for admin-level access. (full DDL and DML)
-CREATE ROLE bookstore_manager;
+
+

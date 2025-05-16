@@ -9,3 +9,4 @@ TRAILING NULLCOLS
   CustomerAddress,
   CustomerEmail
 )
+

@@ -212,7 +212,7 @@ def main():
     db_config = {
         "username": "user_manager",
         "password": "Manager#2025",
-        "dsn": "10.0.0.6:1521/XEPDB1"  # host:port/service_name
+        "dsn": "localhost:1521/XEPDB1"  # host:port/service_name
     }   
     
     base_dir = os.path.dirname(os.path.abspath(__file__))

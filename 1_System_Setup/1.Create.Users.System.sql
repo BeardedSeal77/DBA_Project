@@ -20,15 +20,6 @@ SELECT USER FROM dual;
 
 -- 3) Create Users and Grant Roles
 
--- General viewer (read-only user).
-CREATE USER user_viewer IDENTIFIED BY Viewer#2025
-DEFAULT TABLESPACE USERS
-QUOTA UNLIMITED ON USERS;
-
--- Data entry clerk (data entry user).
-CREATE USER user_clerk IDENTIFIED BY Clerk#2025
-DEFAULT TABLESPACE USERS
-QUOTA UNLIMITED ON USERS;
 
 -- Admin staff (admin user).
 CREATE USER user_manager IDENTIFIED BY Manager#2025
@@ -40,4 +31,17 @@ GRANT ALTER TABLESPACE TO user_manager;
 GRANT DROP TABLESPACE TO user_manager;
 GRANT UNLIMITED TABLESPACE TO user_manager;
 GRANT CREATE TRIGGER TO user_manager;
+
+
+-- General viewer (read-only user).
+CREATE USER user_viewer IDENTIFIED BY Viewer#2025
+DEFAULT TABLESPACE USERS
+QUOTA UNLIMITED ON USERS;
+
+-- Data entry clerk (data entry user).
+CREATE USER user_clerk IDENTIFIED BY Clerk#2025
+DEFAULT TABLESPACE USERS
+QUOTA UNLIMITED ON USERS;
+
+
 

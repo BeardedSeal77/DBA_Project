@@ -49,3 +49,5 @@ GRANT bookstore_data_entry TO user_clerk;
 
 -- Admin staff (admin user).
 GRANT bookstore_manager TO user_manager;
+
+

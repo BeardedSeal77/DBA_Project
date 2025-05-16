@@ -8,7 +8,7 @@ def main():
     db_config = {
         "username": "user_manager",
         "password": "Manager#2025",
-        "dsn": "10.0.0.6:1521/XEPDB1"
+        "dsn": "localhost:1521/XEPDB1"
     }
 
     base_dir = os.path.dirname(os.path.abspath(__file__))
