@@ -1,0 +1,23 @@
+located at app/%user%/product/21c/homes/OraDB21Home1/NETWORK/ADMIN/listener.ora
+
+DEFAULT_SERVICE_LISTENER = XE
+
+SID_LIST_LISTENER =
+  (SID_LIST =
+    (SID_DESC =
+      (SID_NAME = CLRExtProc)
+      (ORACLE_HOME = C:\app\%user%\product\21c\dbhomeXE)
+      (PROGRAM = extproc)
+      (ENVS = "EXTPROC_DLLS=ONLY:C:\app\%user%\product\21c\dbhomeXE\bin\oraclr.dll")
+    )
+  )
+
+LISTENER =
+  (DESCRIPTION_LIST =
+    (DESCRIPTION =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = %Computer-Name%.mshome.net)(PORT = 1521))
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 192.168.8.172)(PORT = 1521)) *this broadcasts it to local network
+      (ADDRESS = (PROTOCOL = IPC)(KEY = EXTPROC1521))
+    )
+  )
+
