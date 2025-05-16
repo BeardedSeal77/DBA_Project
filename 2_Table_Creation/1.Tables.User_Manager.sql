@@ -1,11 +1,11 @@
 -- Active: 1747217122266@@127.0.0.1@1521@XEPDB1@USER_MANAGER
 -- Connection Settings
 --  Group: DBA
---  Name: DBA User_Manager 
---  Host: 127.0.0.1 
+--  Name: DBA User_Manager
+--  Host: 127.0.0.1
 --  Port: 1521 
---  Username: user_manager 
---  Password: Manager#2025 
+--  Username: user_manager
+--  Password: Manager#2025
 --  Database: XEPDB1
 
 ---------------------------------------------------------------------------------
