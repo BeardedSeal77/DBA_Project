@@ -1,13 +1,13 @@
 LOAD DATA
 INFILE 'Books.csv'
-INTO TABLE Books
+INTO TABLE tblBook
 FIELDS TERMINATED BY ',' OPTIONALLY ECLOSED BY '"'
 (
-    BookID INTEGER EXTERNAL,
-    BookTitle CHAR,
-    AuthorName Char,
-    BookPrice DECIMAL EXTERNAL,
-    BookPublisher Char,
+    BookID,
+    BookTitle,
+    AuthorName,
+    BookPrice,
+    BookPublisher,
     BookPublicationDate DATE "YYYY-MM-DD",
-    BookQuantity INTEGER EXTERNAL
+    BookQuantity
 )

@@ -1,9 +1,9 @@
 LOAD DATA
 INFILE 'Customers.csv'
-INTO TABLE customers
+INTO TABLE tblCustomer
 FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"'
 (
-    CustomerName CHAR,
-    CustomerAddress Char,
-    CustomerEmail CHAR
+    CustomerName,
+    CustomerAddress,
+    CustomerEmail
 )
